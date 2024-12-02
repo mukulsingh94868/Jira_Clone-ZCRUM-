@@ -12,7 +12,6 @@ export const metadata = {
   title: 'Zcrum',
   description: 'Project Management App',
 }
-
 export default function RootLayout({ children }) {
   return (
     <ClerkProvider
