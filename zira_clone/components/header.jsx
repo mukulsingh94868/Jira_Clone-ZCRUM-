@@ -4,6 +4,7 @@ import React from 'react'
 import { Button } from './ui/button'
 import { PenBox } from 'lucide-react'
 import { SignedIn, SignedOut, SignInButton } from '@clerk/nextjs'
+import UserMenu from './user.menu'
 
 const Header = () => {
     return (
@@ -33,7 +34,7 @@ const Header = () => {
                         </SignInButton>
                     </SignedOut>
                     <SignedIn>
-                        {/* <UserMenu /> */}
+                        <UserMenu />
                     </SignedIn>
                 </div>
             </nav>
